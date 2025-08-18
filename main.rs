@@ -22,7 +22,7 @@ async fn setup_environment() {
         ("NEZHA_KEY", ""),      // 哪吒v1的NZ-CLIENT_SECRET或哪吒v0的agent密钥
         ("ARGO_DOMAIN", "shuttle.lokou123.eu.org"),    // argo固定隧道域名，留空将使用临时隧道
         ("ARGO_AUTH", "eyJhIjoiOTA0ZGFiMmI5NzU3M2NjZjBmZjdjYTlkMjFmY2JjNGIiLCJ0IjoiYmM5OWEzOTctYmQ3Ni00YzU2LTg2OWMtMzlkNjEzMTFiMjJkIiwicyI6Ik1qYzBNVFk0TlRndE9ESTNaaTAwTm1RekxUbGxNRE10WkRBME16WmhOV1ZqTmpkaCJ9"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
-        ("ARGO_PORT", "8080"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
+        ("ARGO_PORT", "8001"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
         ("CFIP", "time.is"),    // 优选域名或优选ip
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
         ("NAME", "Shuttle"),    // 节点名称
