@@ -23,7 +23,7 @@ async fn setup_environment() {
         ("ARGO_DOMAIN", "shuttle.lokou123.eu.org"),    // argo固定隧道域名，留空将使用临时隧道
         ("ARGO_AUTH", "{"AccountTag":"904dab2b97573ccf0ff7ca9d21fcbc4b","TunnelSecret":"ScaTBk63teiLtlwlDuAdvPPFOU0Px/ncPDdFPa5C/pQ=","TunnelID":"c4844980-1063-4ad7-af28-4aa99fc5e881","Endpoint":""}"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
         ("ARGO_PORT", "8080"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
-        ("CFIP", "cf.877774.xyz"),    // 优选域名或优选ip
+        ("CFIP", "time.is"),    // 优选域名或优选ip
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
         ("NAME", "Shuttle"),    // 节点名称
         ("FILE_PATH", "./tmp"), // 运行目录，保持不变
